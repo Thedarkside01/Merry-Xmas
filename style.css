@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #da9f22;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  cursor: pointer;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #dad7f0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  color: #ca4c4c; /* Bootstrap's danger color */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.hidden-message {
+  display: none;
+}
+
+body{
+  background-color: #151522;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  width: 90%;
+  height: 90%;
+  visibility: hidden;
+}
+
+.sperkle {
+  
+}
